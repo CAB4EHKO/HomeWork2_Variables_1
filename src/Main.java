@@ -5,6 +5,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
     }
 
     public static void task1() {
@@ -55,5 +56,13 @@ public class Main {
         System.out.println("Значение переменной Frog поделённое на 3.5: " + frog);
         frog += 4;
         System.out.println("Значение переменной Frog увеличенное на 4: " + frog);
+    }
+    public  static void task6() {
+        System.out.println("Задача 6");
+        var weightBoxer1 = 78.2;
+        var weightBoxer2 = 82.7;
+        var totalWeight = weightBoxer1 + weightBoxer2;
+        var differenceWeight = weightBoxer2 - weightBoxer1;
+        System.out.println("Общий вес боксёров: " + totalWeight + "\nРазница в весе боксёров: " + differenceWeight);
     }
 }
