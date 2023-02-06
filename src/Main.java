@@ -7,6 +7,7 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
     }
 
     public static void task1() {
@@ -77,11 +78,22 @@ public class Main {
         var weightBoxer1 = 78.2;
         var weightBoxer2 = 82.7;
 
-        // Находим разницу в весе вычинанием из большего веса меньший.
+        // Находим разницу в весе вычитанием из большего веса меньший.
         var differenceWeightOption1 = weightBoxer2 - weightBoxer1;
 
         // Находим разницу в весе с помощью функции остаток от деления.
         var differenceWeightOption2 = weightBoxer2 % weightBoxer1;
         System.out.println("Разница в весе вариант №1: " + differenceWeightOption1 + "\nРазница в весе вариант №2: " + differenceWeightOption2);
+    }
+
+    public static void task8() {
+        System.out.println("Задача 8");
+        var totalWorkHour = 640;
+        var clockRate = 8;
+        var totalWorker = totalWorkHour / clockRate;
+        System.out.println("Всего работников в компании - " + totalWorker + " человек.");
+        totalWorker += 94;
+        totalWorkHour = totalWorker * clockRate;
+        System.out.println("Если в компании работает " + totalWorker + " человека, то всего " + totalWorkHour + " часа \nработы может быть поделено между сотрудниками.");
     }
 }
