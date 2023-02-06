@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
 
     public static void task1() {
@@ -15,6 +16,7 @@ public class Main {
         var paper = 763789;
         System.out.println("Собака: " + dog + "\nКот: " + cat + "\nБумага: " + paper);
     }
+
     public static void task2() {
         System.out.println("Задача 2");
         var x = 4.0;
@@ -26,6 +28,7 @@ public class Main {
         paper += x;
         System.out.println("Собака: " + dog + "\nКот: " + cat + "\nБумага: " + paper);
     }
+
     public static void task3() {
         System.out.println("Задача 3");
         var y = 3.0;
@@ -37,6 +40,7 @@ public class Main {
         paper -= y;
         System.out.println("Собака: " + dog + "\nКот: " + cat + "\nБумага: " + paper);
     }
+
     public static void task4() {
         System.out.println("Задача 4");
         var friend = 19;
@@ -46,6 +50,7 @@ public class Main {
         friend /= 7;
         System.out.println("Значение переменной Friend поделённое на 7: " + friend);
     }
+
     public static void task5() {
         System.out.println("Задача 5");
         var frog = 3.5;
@@ -57,12 +62,26 @@ public class Main {
         frog += 4;
         System.out.println("Значение переменной Frog увеличенное на 4: " + frog);
     }
-    public  static void task6() {
+
+    public static void task6() {
         System.out.println("Задача 6");
         var weightBoxer1 = 78.2;
         var weightBoxer2 = 82.7;
         var totalWeight = weightBoxer1 + weightBoxer2;
         var differenceWeight = weightBoxer2 - weightBoxer1;
         System.out.println("Общий вес боксёров: " + totalWeight + "\nРазница в весе боксёров: " + differenceWeight);
+    }
+
+    public static void task7() {
+        System.out.println("Задача 7");
+        var weightBoxer1 = 78.2;
+        var weightBoxer2 = 82.7;
+
+        // Находим разницу в весе вычинанием из большего веса меньший.
+        var differenceWeightOption1 = weightBoxer2 - weightBoxer1;
+
+        // Находим разницу в весе с помощью функции остаток от деления.
+        var differenceWeightOption2 = weightBoxer2 % weightBoxer1;
+        System.out.println("Разница в весе вариант №1: " + differenceWeightOption1 + "\nРазница в весе вариант №2: " + differenceWeightOption2);
     }
 }
