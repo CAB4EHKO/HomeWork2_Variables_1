@@ -3,6 +3,7 @@ public class Main {
         task1();
         task2();
         task3();
+        task4();
     }
 
     public static void task1() {
@@ -33,5 +34,13 @@ public class Main {
         var paper = 763793;
         paper -= y;
         System.out.println("Собака: " + dog + "\nКот: " + cat + "\nБумага: " + paper);
+    }
+    public static void task4() {
+        var friend = 19;
+        System.out.println("Переменная Friend: " + friend);
+        friend += 2;
+        System.out.println("Значение переменной Friend увеличенное на 2: " + friend);
+        friend /= 7;
+        System.out.println("Значение переменной Friend поделённое на 7: " + friend);
     }
 }
