@@ -33,7 +33,7 @@ public class Main {
     public static void task3() {
         System.out.println("Задача 3");
         var dog = 8.0;
-        dog -= -3.5;
+        dog -= 3.5;
         var cat = 3.6;
         cat -= 1.6;
         var paper = 763789;
