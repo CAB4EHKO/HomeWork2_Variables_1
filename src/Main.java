@@ -32,13 +32,12 @@ public class Main {
 
     public static void task3() {
         System.out.println("Задача 3");
-        var y = 3.0;
-        var dog = 12.0;
-        dog -= y;
-        var cat = 7.6;
-        cat -= y;
-        var paper = 763793;
-        paper -= y;
+        var dog = 8.0;
+        dog -= -3.5;
+        var cat = 3.6;
+        cat -= 1.6;
+        var paper = 763789;
+        paper -= 7639;
         System.out.println("Собака: " + dog + "\nКот: " + cat + "\nБумага: " + paper);
     }
 
