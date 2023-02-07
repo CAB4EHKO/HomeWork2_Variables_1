@@ -84,7 +84,7 @@ public class Main {
 
         // Находим разницу в весе с помощью функции остаток от деления.
         var differenceWeightOption2 = weightBoxer2 % weightBoxer1;
-        System.out.println("Разница в весе вариант №1: " + differenceWeightOption1 + " " + k + "\nРазница в весе вариант №2: " + differenceWeightOption2 + " ");
+        System.out.println("Разница в весе вариант №1: " + differenceWeightOption1 + " " + k + "\nРазница в весе вариант №2: " + differenceWeightOption2 + " " + k);
     }
 
     public static void task8() {
