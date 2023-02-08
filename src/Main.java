@@ -67,24 +67,22 @@ public class Main {
         System.out.println("Задача 6");
         var weightBoxer1 = 78.2;
         var weightBoxer2 = 82.7;
-        var k = "кг";
         var totalWeight = weightBoxer1 + weightBoxer2;
         var differenceWeight = weightBoxer2 - weightBoxer1;
-        System.out.println("Общий вес боксёров: " + totalWeight + " " + k + "\nРазница в весе боксёров: " + differenceWeight + " " + k);
+        System.out.println("Общий вес боксёров: " + totalWeight + " кг  \nРазница в весе боксёров: " + differenceWeight + " кг");
     }
 
     public static void task7() {
         System.out.println("Задача 7");
         var weightBoxer1 = 78.2;
         var weightBoxer2 = 82.7;
-        var k = "кг";
 
         // Находим разницу в весе вычитанием из большего веса меньший.
         var differenceWeightOption1 = weightBoxer2 - weightBoxer1;
 
         // Находим разницу в весе с помощью функции остаток от деления.
         var differenceWeightOption2 = weightBoxer2 % weightBoxer1;
-        System.out.println("Разница в весе вариант №1: " + differenceWeightOption1 + " " + k + "\nРазница в весе вариант №2: " + differenceWeightOption2 + " " + k);
+        System.out.println("Разница в весе вариант №1: " + differenceWeightOption1 + " кг \nРазница в весе вариант №2: " + differenceWeightOption2 + " кг");
     }
 
     public static void task8() {
